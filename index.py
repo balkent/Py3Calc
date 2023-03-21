@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 
-print("Hello, World!")
+from src.app import App
+
+App().run()
